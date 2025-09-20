@@ -1,1 +1,39 @@
-/*  your css code here. If applicable */
+.card {
+  width: 350px;
+  padding: 30px;
+  background: #f5f5f5;
+  box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin: 50px auto;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 5px;
+}
+.card h1 {
+  font-size: 2.3em;
+  margin: 18px 0 10px;
+}
+.card p {
+  font-size: 1.25em;
+  margin: 5px 0;
+}
+.card .desc {
+  margin-bottom: 22px;
+}
+.card button {
+  padding: 15px 35px;
+  background: #f77d6b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.card button:hover {
+  background: #ffb300;
+  color: #000;
+}
